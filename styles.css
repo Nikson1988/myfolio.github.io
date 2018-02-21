@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	background:rgba(67,42,42,0.5);
+	font-family: 'verdana';
+}
+.one{
+	box-shadow: 0 0 15px rgba(195,245,244,0.6);
+	background: rgb(252,253,215);
+	border:1px solid rgb(229,249,138);
+	width: 900px;
+	font-style: red;
+	margin:0 auto; 
+}
+table{
+	color:rgba(67,42,42,1);
+	line-height: 1.3em;
+	margin-left: 20px;
+	border:2px solid #9A96C9;	
+	border-collapse:collapse;
+	width:850px;
+	box-shadow: 0 0 5px rgba(67,42,42,0.6);
+}
+tr,td,th{
+	border:2px solid #9A96C9;
+	padding: 10px 5px;	
+	vertical-align: top;
+	box-shadow: 0 0 5px rgba(67,42,42,0.6);
+}
+p,h1,h2{
+	margin-left: 20px;
+	color:rgba(67,42,42,1);
+	line-height: 1.3em;
+}
+h1{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;	
+}
+h2{
+	padding-top:30px;
+}
+
+.cursive{
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+.m1{
+	text-decoration: underline;
+}
+th, .bold{
+	font-weight: bold;
+}
+.th{
+	text-align: left;
+}
+.img{
+
+	margin-left: 0px;
+	border:0.1px solid rgba(0,0,0,0.0);
+	background-image: url("img/bridge.jpg");
+	height: 501px;
+}
+a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:hover{
+	color:#9A96C9;
+	font-style: italic;
+}
+a:active {
+	color: blue;
+}
+ul{
+	list-style-type: square;
+	color:rgba(67,42,42,1);
+}
+
+
